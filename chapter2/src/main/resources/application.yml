@@ -1,0 +1,18 @@
+server:
+  port: 8088
+
+person:
+  name: zhangsan
+  age: 19
+  sex: 男
+  married: true
+  friend:
+    name: lisa
+    sex: 女
+  job: {name: 开发, years: 2}
+  pets:
+    - 猫儿
+    - 狗儿
+    - 马儿
+  houses: [{area: 100, position: 北京}, {area: 200, position: 上海}]
+
